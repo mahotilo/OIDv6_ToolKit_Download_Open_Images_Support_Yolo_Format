@@ -16,7 +16,7 @@ def download(args, df_val, folder, dataset_dir, class_name, class_code, class_li
     :param class_code: self explanatory
     :param class_list: list of the class if multiclasses is activated
     :param threads: number of threads
-    :paran class_list_for_yolo: the list of classes to be downloaded so can convert class name into index.
+    :param class_list_for_yolo: the list of classes to be downloaded so can convert class name into index.
     :return: None
     '''
     if os.name == 'posix':
